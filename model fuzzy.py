@@ -13,7 +13,7 @@ def interpretasi_tingkat_kehebatan(nilai):
         return 'Hebat'
 
 # Baca data dari file CSV
-data = pd.read_excel(r"C:\Users\khaer\data_lari.xlsx")
+data = pd.read_excel(r"C:\path_ke\data_lari.xlsx")
 
 # Definisikan variabel input
 kecepatan_lari = ctrl.Antecedent(np.arange(3.7, 5.5, 0.1), 'kecepatan_lari')
